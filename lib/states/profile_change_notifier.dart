@@ -46,7 +46,7 @@ class LocaleModel extends ProfileChangeNotifier{
       var t = _profile.locale.split('_');
       return Locale(t[0],t[1]);
     }
-    String get local => _profile.locale;
+    String get locale => _profile.locale;
 
     set locale(String locale){
       _profile.locale = locale;
